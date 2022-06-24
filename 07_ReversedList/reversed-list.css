@@ -1,8 +1,13 @@
-#wrapper ol{
-    background-color: #dddddd;
+#wrapper {
+    background: #dddddd;
     width: 300px;
+}
+
+#wrapper>ol {
+
     border: 1px solid #000000;
 }
-#wrapper ol li{
+
+#wrapper>ol>li {
     color: #95191a;
 }
